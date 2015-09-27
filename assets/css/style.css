@@ -1,0 +1,26 @@
+#pagelink {
+	display: inline;
+	cursor: pointer;
+	color: #4F5DE3;
+}
+
+.page {
+	display: inline;
+}
+
+.page:nth-child(1n+1):after {
+	content: ' | ';
+}
+
+.page:last-child:after {
+	content: '';
+}
+
+#pages {
+	display: inline;
+}
+
+form {
+	margin-top: 35px;
+	display: inline-block;
+}
